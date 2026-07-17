@@ -17,7 +17,7 @@ type DiagnosisResult = {
   error?: string;
 };
 
-const API_URL = "http://127.0.0.1:8000/diagnose";
+const API_URL = "http://halt-diagnostic-backend-env.eba-yi23h39s.us-east-1.elasticbeanstalk.com/diagnose";
 
 const SEVERITY_COLOR: Record<string, string> = {
   "Strongly present": "#E8791E",
